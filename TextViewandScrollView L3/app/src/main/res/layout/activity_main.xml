@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginVertical="20dp"
+        app:srcCompat="@drawable/Itachi" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:layout_height="200dp"
+        android:text="Itachi Uchiha is one of the most complex and intriguing characters in the Naruto series. Born a prodigy of the Uchiha clan, Itachi was recognized for his incredible talents from a young age. He was considered one of the most gifted ninjas of his generation, graduating at the top of his class from the Ninja Academy and becoming a Chūnin at just 10 years old.
+The most significant and tragic event in Itachi's
+ life was the Uchiha clan massacre. Under orders from the village
+  leadership, Itachi was tasked with eliminating his entire clan to prevent a coup d'etat that would have plunged the village into civil war.Itachi carried out this heartbreaking mission, sparing only his younger brother, Sasuke. This event was a turning point in his life and deeply impacted his relationship with Sasuke."
+        One of the most compelling aspects of Itachi's character is his relationship with Sasuke. Despite the massacre, Itachi deeply loved his brother and always intended for him to grow strong enough to defeat him, believing it would help Sasuke redeem the Uchiha name. This complicated dynamic between the brothers adds a layer of depth and emotion to Itachi's story.
+
+    Itachi is also known for his philosophical nature. He often engaged in deep and thought-provoking dialogues, questioning the nature of reality, truth, and the choices individuals make. His wisdom and introspective personality made him a character who could see beyond the surface and understand the complexities of the world around him.
+
+    Even after his death, Itachi's influence on the series remains profound. His actions, motives, and the revelations about his true intentions continue to impact the storyline and other characters. Itachi Uchiha's legacy is one of heroism, tragedy, and profound wisdom, making him one of the most beloved and memorable characters in the Naruto series."
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</LinearLayout>
